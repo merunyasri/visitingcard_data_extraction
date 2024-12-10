@@ -1,0 +1,164 @@
+/* General body styling */
+body {
+    background: linear-gradient(-45deg, #ac9a95, #ad5074, #bd74c0, #71cebe);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+/* Header section */
+.header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* Container styling */
+.container {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+}
+
+/* Logo styling */
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Upload button styling */
+.upload-btn {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.upload-btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    margin-left: 30px;
+}
+/* Image preview and extracted data container styling */
+.image-and-extracted-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 90%;
+    height: 100%;
+}
+
+.image-preview img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Extracted data container */
+.extracted-image-container {
+    width: 50%;
+    height: 80%;
+}
+#extractedDataForm{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.submit-btn {
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.delete-btn {
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.save-btn{
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.edit-btn {
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form-group {
+    display: flex;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[disabled] {
+    background-color: #f1f1f1;
+}
+.extracted{
+    width: 80%;
+}
+.title{
+    width: 20%;
+    text-align: left;
+}
